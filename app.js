@@ -849,7 +849,7 @@
       const isJobPassage = /^job\s*[12]\b/i.test(normalizeRef(analysis.reference));
       if (visual && studyImage) {
         if (isJobPassage) {
-          studyImage.src = "images/job.jpg";
+          studyImage.src = "job.jpg";
           studyImage.alt =
             "Job sitting in ashes among ruins after loss, looking upward in grief";
           visual.hidden = false;
