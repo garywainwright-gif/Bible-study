@@ -47,11 +47,7 @@ window.BIBLE_ANALYSES = {
       }
     ],
     versionNotes: {
-      kjv: "Memorable archaic cadence in 1:21—“hath taken away… blessed be the name.”",
-      web: "Modern public-domain wording; same structure of loss reports and Job’s confession.",
-      asv: "Close to KJV with light updates; keeps the solemn tone of the prologue.",
-      compare:
-        "KJV/ESV stay formal in the heavenly council and Job’s lament. NIV aims for clear narrative flow. NLT often clarifies “the accuser”/Satan and softens older phrasing of “curse God.” Watch how each renders ha-satan and Job’s “blessed be the name of the Lord.”"
+      bsb: "In the BSB, watch how the heavenly scene and Job’s confession in 1:21 are phrased—especially “The LORD gave and the LORD has taken away” and the naming of the adversary."
     },
     expressions: [
       {
@@ -271,11 +267,7 @@ window.BIBLE_ANALYSES = {
       }
     ],
     versionNotes: {
-      kjv: "“Shall we receive good… and shall we not receive evil?” keeps a sharp, memorable antithesis.",
-      web: "Often “trouble” or similar for ra‘, helping modern readers avoid hearing “God does wickedness.”",
-      asv: "Stays near KJV; “evil” retained in the older sense of calamity.",
-      compare:
-        "KJV’s “evil” can mislead contemporary readers; NIV/ESV/NLT frequently prefer “trouble,” “adversity,” or “bad.” Compare also “curse God and die” (wife) and whether “Satan” or “the accuser/adversary” is used in the heavenly scene."
+      bsb: "In the BSB, notice “Shall we accept from God both good and adversity?”—and how the wife’s counsel and the heavenly challenge are worded for modern readers."
     },
     expressions: [
       {
@@ -385,6 +377,355 @@ window.BIBLE_ANALYSES = {
           {
             name: "Matthew Henry on holy ends",
             body: "“God, for holy ends, permits it.” This short statement summarises Henry’s understanding of Job 2. Job never learns all the reasons for his suffering, yet Henry insists that God’s purposes remain holy. A Christian’s confidence rests not in understanding everything but in trusting the character of God."
+          }
+        ]
+      }
+    ]
+  },
+
+  "job 19": {
+    reference: "Job 19",
+    language: "Hebrew",
+    primaryText:
+      "For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth.",
+    sense: [
+      "Job answers his friends’ accusations with raw complaint: their words crush him, God seems to have hedged him in, and every human bond has failed—family, household, and the companions who once loved him.",
+      "From that isolation rises one of Scripture’s great confessions. Job wants his case written forever, then stakes everything on a living Redeemer who will stand at the last upon the dust, and on seeing God with his own eyes."
+    ],
+    original: {
+      text: "וַאֲנִי יָדַעְתִּי גֹּאֲלִי חָי וְאַחֲרוֹן עַל־עָפָר יָקוּם׃",
+      transliteration:
+        "Wa-ani yada‘ti go’ali chai; ve-acharon ‘al-‘afar yaqum. (Job 19:25)",
+      notes: [
+        "Job 19 sits in the poetic dispute, not the prose prologue. The speech moves from social abandonment (19:13–22) to a desire for permanent witness (19:23–24) to the Redeemer confession (19:25–27).",
+        "גֹּאֵל (go’el) is the kinsman-redeemer: the near relative who buys back, vindicates, or avenges. Job’s earthly kin have failed him (19:14); he claims a Redeemer who still lives.",
+        "עָפָר (‘afar, “dust”) can mean earth, dust-heap, or grave. Interpreters debate whether Job expects vindication in this life or beyond death; either reading presses hope beyond present isolation."
+      ],
+      chips: ["Biblical Hebrew", "Dispute poetry", "גֹּאֵל · redeemer / vindicator"]
+    },
+    words: [
+      {
+        lemma: "גֹּאֵל · go’el",
+        gloss: "redeemer / kinsman-vindicator",
+        note: "The same word used of Boaz in Ruth and of YHWH redeeming Israel. Here it names the one who will take up Job’s cause when every human advocate has failed."
+      },
+      {
+        lemma: "יָדַעְתִּי · yada‘ti",
+        gloss: "I know",
+        note: "A perfect of settled conviction—“I know”—not a tentative wish. The confession is personal and emphatic after verses of complaint."
+      },
+      {
+        lemma: "חָי · chai",
+        gloss: "living / alive",
+        note: "The Redeemer lives. Against Bildad’s talk of extinction and the “king of terrors,” Job anchors hope in a living advocate."
+      },
+      {
+        lemma: "אַחֲרוֹן · acharon",
+        gloss: "at the last / latter",
+        note: "The Redeemer will have the final word. Timing language points beyond the present courtroom of friends to a decisive standing."
+      },
+      {
+        lemma: "עָפָר · ‘afar",
+        gloss: "dust / earth / grave-dust",
+        note: "Where Job sits and where bodies return. “Stand upon the dust” can mean appear on the earth, at the ash-heap, or over the grave—vindication that meets Job’s lowest place."
+      }
+    ],
+    versionNotes: {
+      bsb: "In the BSB, read 19:25–27 carefully: “I know that my Redeemer lives…” and the wording around seeing God. Notice how a modern translation keeps the confession’s force while staying clear."
+    },
+    expressions: [
+      {
+        title: "“How long will ye vex my soul… with words?”",
+        body: "Friends become affliction. Counsel that only accuses multiplies Job’s pain instead of bearing it."
+      },
+      {
+        title: "“Have pity upon me, O ye my friends”",
+        body: "A cry for compassion after total social stripping. Job asks for pity because “the hand of God hath touched me”—not for another round of prosecution."
+      },
+      {
+        title: "“Oh that my words were… graven… in the rock for ever!”",
+        body: "Job wants a permanent record when living advocates fail. The desire for inscription sets up the living Redeemer who will speak when stone and book cannot."
+      },
+      {
+        title: "“I know that my redeemer liveth”",
+        body: "The hinge of the chapter. From abandonment Job turns to assurance: a living go’el will stand at the last, and Job himself will see God."
+      }
+    ],
+    historical: [
+      "Job 19 belongs to the wisdom dispute after the prologue’s disasters. Job’s friends treat suffering as proof of hidden sin; Job refuses that verdict while still locating his ordeal under God’s hand.",
+      "The go’el custom—kinsman redemption, blood vengeance, legal advocacy—gives the Redeemer image its social force in an ancient Near Eastern world of kinship duty."
+    ],
+    author: [
+      "The poet lets Job’s lament deepen until hope erupts. Complaint is not cancelled; it becomes the path to confession.",
+      "By placing the Redeemer lines after exhaustive isolation, the author shows faith speaking from emptiness of human help, not from comfortable theory."
+    ],
+    audience: [
+      "Sufferers abandoned by counselors, family, or community—and readers tempted to explain pain by blame.",
+      "The church later hears Christ in the go’el language; first hearers are pressed to ask whether God himself will vindicate the righteous sufferer."
+    ],
+    culture: [
+      "Estrangement from household, servants, spouse, and children maps ancient honor-shame collapse: Job loses not only comfort but social belonging.",
+      "Writing in a book and engraving in rock are permanence technologies of the ancient world—Job wants a witness that outlasts decaying flesh and failing friends."
+    ],
+    surrounding: {
+      overview:
+        "Job 19 answers the friends’ third-cycle pressure. Isolation fills the middle; Redeemer hope crowns the speech; a warning about judgment closes it.",
+      before: [
+        {
+          ref: "Job 18",
+          note: "Bildad describes the wicked’s extinguishing lamp and the “king of terrors.” Job 19 answers that darkness with a living Redeemer."
+        },
+        {
+          ref: "Job 19:13-22",
+          note: "Within the chapter: every human circle fails, then Job pleads for pity before turning to lasting witness and hope."
+        }
+      ],
+      after: [
+        {
+          ref: "Job 19:28-29",
+          note: "Job warns the friends that persecution and wrath answer to a real judgment—hope for himself includes accountability for them."
+        },
+        {
+          ref: "Job 20",
+          note: "Zophar resumes the attack. The Redeemer confession does not end the dispute; it reframes what Job trusts while the argument continues."
+        }
+      ]
+    },
+    application: [
+      "When counselors wound more than they help, seek pity and truth together—and do not let failed friends have the last word on God’s character.",
+      "Hold Redeemer hope in seasons when vindication is delayed. Christians read this hope fulfilled in Jesus, the living kinsman who stands for his people and will be seen."
+    ],
+    questions: [
+      {
+        prompt:
+          "Looking back to Eliphaz’s words in 15:17-26, or Bildad’s final words leading up to 18:21, what is it that leads Job to conclude in 19:2-3 that his friends are attacking him?",
+        passageExtracts: [
+          { ref: "Job 15:17-26", label: "Eliphaz" },
+          { ref: "Job 18:17-21", label: "Bildad" },
+          { ref: "Job 19:2-3", label: "Job" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "Eliphaz and Bildad do not merely offer general wisdom; they paint the ruin of the wicked in colours that match Job’s losses, so their speeches function as veiled accusations. Eliphaz (15:17–26) describes the wicked as defiant against God and therefore terrified and destroyed; Bildad ends by saying such is the place of those who do not know God (18:21). Job hears that portrait as aimed at him—hence 19:2–3: they vex his soul, break him with words, and have reproached him again and again.",
+        comments: [
+          {
+            name: "Matthew Henry",
+            body: "Henry notes that the friends had “passed a very severe censure upon him as a wicked man because he was so grievously afflicted,” and that in 19:2–3 Job tells them how ill he takes it. They came as comforters but “set themselves to rob him of the only comfort he had left” in God, conscience, and name. Their hard speeches “broke him in pieces with words” and “reproached him”—using affliction itself as the plea that he must be wicked."
+          },
+          {
+            name: "John Gill on Eliphaz (Job 15)",
+            body: "Gill summarises Eliphaz’s second speech as falling on Job “with greater vehemence and severity,” then declaring from observation that wicked men live in terror and calamity because of insolence and hostility against God (15:17–26). The portrait is not neutral; it is meant to fit Job’s case and press him to admit guilt."
+          },
+          {
+            name: "John Gill on Bildad (Job 18)",
+            body: "Gill says Bildad “falls with great fury” and heaps up the miserable end of the wicked—darkened lamp, snares, the king of terrors, ruined house and name—closing with 18:21: this is the place of the one who knows not God. By matching that fate so closely to Job’s losses, Bildad’s “final words” read as an attack on Job’s character."
+          },
+          {
+            name: "Job 19:2-3 itself",
+            body: "Job’s own summary names the wound: “How long will ye vex my soul, and break me in pieces with words? These ten times have ye reproached me.” What leads him to call it an attack is not disagreement alone, but repeated reproach that treats his suffering as proof he belongs among the wicked Eliphaz and Bildad have just described."
+          }
+        ]
+      },
+      {
+        prompt:
+          "What does Job sense in his friends (19:4-6) that suggests that the friends have gone beyond offering him godly counsel?",
+        passageExtracts: [{ ref: "Job 19:4-6", label: "Job" }],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "In 19:4–6 Job senses pride and prosecution, not pastoral help. Even if he had erred, he says, the error would be his own—yet the friends magnify themselves against him and plead his reproach as proof of guilt. Worse, they speak as if they can settle God’s case: Job insists God has overthrown him and netted him, so their counsel has crossed into self-exalting accusation and claiming a divine verdict they do not have the right to pronounce.",
+        comments: [
+          {
+            name: "Matthew Henry",
+            body: "Henry hears Job charging them with magnifying themselves against him and pleading his reproach—using affliction as an argument that he is wicked. That is “not only unkind, but very unjust.” Godly counsel would help him take comfort in integrity under affliction; instead they turn his shame into a courtroom brief against him and “look big upon him.”"
+          },
+          {
+            name: "Job 19:4",
+            body: "“And be it indeed that I have erred, mine error remaineth with myself.” Job senses that they are not patiently sorting truth with him; they are seizing any supposed fault as theirs to prosecute. Counsel that cannot leave an error with the sufferer before God has become domination."
+          },
+          {
+            name: "Job 19:5-6",
+            body: "“If indeed ye will magnify yourselves against me, and plead against me my reproach: Know now that God hath overthrown me, and hath compassed me with his net.” Job names their spirit as self-magnifying and their method as pleading reproach. By pointing to God’s net, he refuses their claim to stand in God’s place as the ones who have figured him out."
+          },
+          {
+            name: "John Gill",
+            body: "Gill treats the friends’ posture as sharp accusation rather than comfort: they have made Job’s calamity the evidence against him. When friends move from seeking God’s wisdom with the sufferer to proving the sufferer guilty by his wounds, they have gone beyond godly counsel into attack."
+          }
+        ]
+      },
+      {
+        prompt:
+          "In 19:7-12 we see that Job is convinced that the Lord is against him (16:7-14). What is it that has led him to this conclusion?",
+        passageExtracts: [
+          { ref: "Job 19:7-12", label: "Job" },
+          { ref: "Job 16:7-14", label: "Job earlier" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "Job’s conclusion is driven by the shape of his experience under God’s hand: unanswered cries for justice, blocked paths, stripped honour, uprooted hope, and what feels like a military siege by God himself. Reading 19:7–12 beside 16:7–14 shows the same pattern—Job interprets relentless, many-sided affliction as God treating him as an enemy, not merely as a man undergoing mysterious trials.",
+        comments: [
+          {
+            name: "Job 19:7-12",
+            body: "Job lists what has persuaded him: he cries out of wrong and is not heard; God has fenced his way, set darkness in his paths, stripped his glory and crown, destroyed him on every side, removed hope like a tree, kindled wrath, counted him as an enemy, and sent troops to encamp against his tent. The accumulation itself is the argument—so total a dismantling must mean the Lord is against him."
+          },
+          {
+            name: "Job 16:7-14",
+            body: "The earlier speech already framed God as the one who has worn him out, shrivelled him, torn him, set him up as a target, broken him with breach upon breach, and run upon him like a warrior. 19:7–12 resumes that conviction: the same divine hostility Job named in chapter 16 now appears as net, siege, and extinguished hope."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry notes that Job ascribes his troubles immediately to God—overthrown and compassed with a net—and complains that when he cries of wrong there is “no judgment.” From Job’s vantage, silence from heaven plus crushing providence equals opposition. Henry does not treat that reading as the final theology of the book, but as the honest conclusion Job draws from what he suffers."
+          },
+          {
+            name: "John Gill",
+            body: "Gill reads these verses as Job tracing every loss to God’s active dealing: hedged in, darkened, stripped, uprooted, besieged. What leads Job to say the Lord is against him is not a single wound but the sense that God himself has organised the campaign—friends may accuse, yet Job believes a stronger hand has marked him as an enemy."
+          }
+        ]
+      },
+      {
+        prompt:
+          "Job concludes that the Lord has alienated him from his family and friends (19:13-20). What is wrong with his diagnosis and his solution in 19:21?",
+        passageExtracts: [
+          { ref: "Job 19:13-20", label: "Diagnosis" },
+          { ref: "Job 19:21", label: "Solution" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "Job’s pain in 19:13–20 is real, but the diagnosis overloads God’s hand and underplays human failure: brothers, kinsfolk, servants, and beloved friends also choose estrangement and reproach. His solution in 19:21—begging those same friends for pity because God has touched him—looks for compassion from the very voices that have been breaking him, and stops short of the deeper recourse he will name moments later in the living Redeemer.",
+        comments: [
+          {
+            name: "On the diagnosis (19:13-20)",
+            body: "Job says God “hath put my brethren far from me” and that acquaintances, kin, household, wife, children, and inward friends have turned away. The loneliness is true; what is skewed is treating all of that solely as the Lord’s alienating work. The friends’ cruelty and the household’s withdrawal are also their own failures of love—Job’s diagnosis risks making God the only agent and human responsibility invisible."
+          },
+          {
+            name: "On the solution (19:21)",
+            body: "“Have pity upon me, have pity upon me, O ye my friends; for the hand of God hath touched me.” The plea is understandable, yet misplaced as a strategy: he asks pity from counselors who have already magnified themselves against him. A solution that returns to unsafe friends for the comfort they refuse cannot heal what 19:2–6 has already exposed."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry stresses how comprehensively Job is abandoned and how cutting reproach is to an honest mind. He also notes the friends’ duty was compassion, not prosecution. Read that way, 19:21 shows Job still hoping they will become what they should have been—while the narrative has already shown they will not; the weakness is leaning on them still."
+          },
+          {
+            name: "Where the speech goes next",
+            body: "The book itself corrects the incomplete solution: after begging failed friends, Job turns toward a lasting witness and a living Redeemer (19:23–27). What is wrong with 19:21 is not the desire for pity, but stopping with human pity from hostile companions instead of pressing through to the Advocate who will not abandon him."
+          }
+        ]
+      },
+      {
+        prompt:
+          "Given that in 19:25 “he will stand on earth” could be understood “rise above the dust”, where does that tell us Job is looking to for his hope in 19:23-25?",
+        passageExtracts: [{ ref: "Job 19:23-25", label: "Job" }],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "In 19:23–25 Job’s hope moves beyond failing friends and even beyond a temporary change of fortune in the dust-heap. He wants a permanent written witness, then stakes himself on a living Redeemer who will stand at the last—language that can be heard as rising over the dust of death and humiliation. His hope is therefore fixed on a living Advocate whose final vindication outlasts present dust, not on recovering pity from the friends of 19:21.",
+        comments: [
+          {
+            name: "Job 19:23-24",
+            body: "“Oh that my words were now written… graven with an iron pen and lead in the rock for ever!” Before the Redeemer line, Job already looks past the moment—toward a record that outlives decaying flesh and unreliable counselors. Hope is shifting from present conversation to lasting testimony."
+          },
+          {
+            name: "Job 19:25 and “dust”",
+            body: "“I know that my redeemer liveth, and that he shall stand at the latter day upon the earth.” Hebrew ‘afar (“dust”) can mean earth, ash-heap, or grave-dust. If “stand upon the earth” is heard as the Redeemer rising above / standing over the dust, Job is looking beyond the dust of death and shame to a living go’el who has the last word over it."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry reads Job as comforted by a living Redeemer who will appear at the last, raise the dead, and complete redemption. That hope is not horizontal—waiting for Bildad to soften—but vertical and final: Job looks to the Redeemer who lives when Job’s world has become dust."
+          },
+          {
+            name: "Calvin (on standing upon the dust)",
+            body: "Calvin hears in the Redeemer’s standing upon the dust a hope that God “maketh the dust to awake.” On that reading, 19:23–25 directs Job’s hope to divine vindication strong enough to meet mortality itself—the Redeemer above the dust—not to a quick repair of his reputation among friends."
+          }
+        ]
+      },
+      {
+        prompt:
+          "Despite all the attacks, what does 19:26-27 tell us about Job’s confidence in his relationship with God?",
+        passageExtracts: [{ ref: "Job 19:26-27", label: "Job" }],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "After friends’ reproach, social abandonment, and the sense that God has besieged him, 19:26–27 still voices a fiercely personal confidence: Job expects to see God for himself. The relationship is not second-hand or cancelled by attack; even if skin is destroyed, he anticipates a face-to-face beholding—“mine eyes shall behold, and not another”—so communion with God remains his destiny and desire.",
+        comments: [
+          {
+            name: "Job 19:26-27",
+            body: "“And though after my skin worms destroy this body, yet in my flesh shall I see God: Whom I shall see for myself, and mine eyes shall behold, and not another; though my reins be consumed within me.” Despite assaults from friends and from providence as he reads it, Job’s confidence is personal and visual: he himself will see God—not merely hear about God through the friends’ verdicts."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry hears here the assurance of hope after a good confession: Job comforts himself with expectation of seeing God. The attacks have not severed the bond; they have driven him to state more clearly that his Redeemer is his, and that the sight of God will be his own."
+          },
+          {
+            name: "John Gill",
+            body: "Gill stresses the first-person force—see for myself, my eyes, not another. Job’s support under desertion is settled interest in a living Redeemer and the prospect of uninterrupted communion with God. Confidence is relational, not reputational: God will be beheld by Job, whatever friends have said."
+          },
+          {
+            name: "Pastoral edge",
+            body: "19:26–27 shows faith that can lament God’s hand and still refuse final alienation from God. The friends attack his integrity; circumstances attack his comfort; yet Job’s hope terminates in knowing and seeing God personally—relationship deeper than the courtroom of human accusation."
+          }
+        ]
+      },
+      {
+        prompt:
+          "How does Jesus fulfil this hope and confidence and assure the Christian of the vindication which Job longs for in 19:23-24?",
+        passageExtracts: [
+          { ref: "Job 19:23-27", label: "Job’s hope" },
+          { ref: "Hebrews 2:14-15", label: "Hebrews" },
+          { ref: "Romans 8:33-34", label: "Romans" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "Job wants words engraved forever and a living Redeemer who will stand at the last and be seen. Christians confess Jesus as that go’el—near kinsman, crucified and risen—whose gospel is the lasting record and whose resurrection is God’s public vindication. In him the longing of 19:23–27 is met: a permanent witness, a living Advocate, and assured sight of God for those united to Christ.",
+        comments: [
+          {
+            name: "Job 19:23-24 and the lasting record",
+            body: "Job cries for words written, printed, graven in rock forever—vindication that outlasts failing friends. The church receives a better engraving: the gospel of Jesus written in Scripture and sealed by an empty tomb. Christians are assured not by winning every earthly argument, but by a finished witness God himself has established in Christ."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry reads Job’s Redeemer hope as looking toward Christ, who would appear as Judge, raise the dead, and complete redemption. Jesus fulfils the confidence Job barely names: a living Redeemer now come in the flesh, risen, and sure to be seen. That is the Christian’s assurance of final vindication."
+          },
+          {
+            name: "John Gill",
+            body: "Gill identifies the go’el with the Son of God, our near kinsman, who redeems from sin, law, and death. In Jesus, Job’s personal “I shall see God” becomes the church’s hope of beholding Christ and sharing his vindication—justified now by faith, openly vindicated at the last day."
+          },
+          {
+            name: "Hebrews 2:14-15; Romans 8:33-34",
+            body: "Jesus shares our flesh to break the power of death, and as the risen Lord he intercedes: “It is God that justifieth… It is Christ that died, yea rather, that is risen again.” The vindication Job wanted carved in stone is secured in a living Person—no charge can finally stand against those for whom the Redeemer stands."
+          }
+        ]
+      },
+      {
+        prompt:
+          "Job 19 ends with Job’s stern words of warning to his friends. How does this help us to rethink how we speak to those who are suffering?",
+        passageExtracts: [
+          { ref: "Job 19:28-29", label: "Warning" },
+          { ref: "Job 2:11-13", label: "Friends at first" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "Job’s closing warning (19:28–29) reminds counselors that accusing speech is not risk-free: those who persecute the sufferer answer to judgment. It pushes us to rethink words that explain pain by blame, to prefer pity to prosecution, and to remember that God hears how we speak to the wounded—not only whether our theology sounds tidy.",
+        comments: [
+          {
+            name: "Job 19:28-29",
+            body: "Job warns that if they keep saying the root of the matter is in him and keep persecuting him, they should fear the sword—wrath brings punishment, “that ye may know there is a judgment.” Hard words to sufferers are not a private game; they stand before God."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry notes there will be a reckoning for hard speeches spoken against God’s people. Job’s friends thought they were defending God; Job insists they were breaking him with words. The warning rebukes any counselor who uses a sufferer’s wounds as a weapon."
+          },
+          {
+            name: "From comfort to caution",
+            body: "They came to sit in silence (Job 2); by chapter 19 their speech has become reproach. Job’s ending teaches us to ask, before we speak: am I pitying, or prosecuting? Am I bearing the burden, or proving myself right? Stern mercy to counselors protects the afflicted."
+          },
+          {
+            name: "Pastoral rethink",
+            body: "Rethinking our speech means slower judgments, fewer forced confessions, and more presence. Job’s warning does not forbid truth; it forbids truthfulness used as assault. Speak to sufferers as those who will also face judgment—and as those who need the Redeemer as much as the one in pain."
           }
         ]
       }

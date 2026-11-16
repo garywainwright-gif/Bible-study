@@ -215,8 +215,55 @@
     return `<p class="version-text">${escapeHtml(row.text)}</p>`;
   }
 
+  function isBsbOnlyPassage(analysis) {
+    return /^job\s*(1|2|19)\b/i.test(normalizeRef(analysis?.reference || ""));
+  }
+
+  function findCuratedAnalysis(candidate) {
+    const key = normalizeRef(candidate);
+    if (analyses[key]) return analyses[key];
+    return Object.entries(analyses).find(([refKey]) => {
+      if (key === refKey) return true;
+      return key.startsWith(`${refKey}:`) || key.startsWith(`${refKey} `);
+    })?.[1];
+  }
+
   function renderVersions(reference, rows, analysis) {
     const notes = analysis.versionNotes || {};
+    const versionsLead = document.querySelector("#versions .panel-lead");
+
+    if (isBsbOnlyPassage(analysis)) {
+      if (versionsLead) {
+        versionsLead.textContent =
+          "This study shows the Berean Standard Bible (BSB) on the page.";
+      }
+      const bsbRow =
+        rows.find((row) => row.label === "BSB") ||
+        rows[0] || {
+          label: "BSB",
+          text: "Could not load the Berean Standard Bible for this passage.",
+          verses: []
+        };
+      const note = notes.bsb
+        ? `<p class="version-note">${escapeHtml(notes.bsb)}</p>`
+        : "";
+      document.getElementById("versions-content").innerHTML = `
+        <div class="version-row">
+          <div class="version-name">BSB</div>
+          <div>
+            ${formatVersionText(bsbRow)}
+            ${note}
+          </div>
+        </div>`;
+      document.getElementById("licensed-links").innerHTML = "";
+      return;
+    }
+
+    if (versionsLead) {
+      versionsLead.textContent =
+        "Public-domain texts load here. Copyrighted editions open for comparison.";
+    }
+
     const versionHtml = rows
       .map((row) => {
         const note = notes[row.label.toLowerCase()]
@@ -534,7 +581,38 @@
     return revealed ? hideLabel : showLabel;
   }
 
-  function renderQuestions(analysis) {
+  async function loadPassageExtractsHtml(extracts) {
+    if (!Array.isArray(extracts) || !extracts.length) return "";
+
+    const blocks = await Promise.all(
+      extracts.map(async (extract) => {
+        const heading = extract.label
+          ? `${extract.label} — ${extract.ref}`
+          : extract.ref;
+        try {
+          const row = await fetchVersion(extract.ref, "bsb");
+          return `
+            <div class="passage-extract">
+              <p class="passage-extract-ref">
+                ${escapeHtml(heading)}
+                <span class="passage-extract-version">BSB</span>
+              </p>
+              ${formatVersionText(row)}
+            </div>`;
+        } catch (error) {
+          return `
+            <div class="passage-extract">
+              <p class="passage-extract-ref">${escapeHtml(heading)}</p>
+              <p class="version-note">Could not load this passage just now.</p>
+            </div>`;
+        }
+      })
+    );
+
+    return `<div class="passage-extracts" aria-label="Bible passages for this question">${blocks.join("")}</div>`;
+  }
+
+  async function renderQuestions(analysis) {
     const questions = analysis.questions || [];
     const root = document.getElementById("questions-content");
 
@@ -543,6 +621,10 @@
       return;
     }
 
+    const extractBlocks = await Promise.all(
+      questions.map((item) => loadPassageExtractsHtml(item.passageExtracts))
+    );
+
     root.innerHTML = `<div class="question-list">${questions
       .map((item, index) => {
         const saved = loadAnswer(analysis.reference, index);
@@ -550,6 +632,7 @@
         return `
           <article class="question-card" data-question-index="${index}">
             <p class="question-prompt">${escapeHtml(item.prompt)}</p>
+            ${extractBlocks[index] || ""}
             <label for="answer-${index}">Your answer</label>
             <textarea id="answer-${index}" data-answer-input="${index}" placeholder="Write your thoughts here…">${escapeHtml(saved)}</textarea>
             <div class="question-actions">
@@ -807,8 +890,14 @@
     resetPanelReveals();
 
     try {
+      const requested = normalizeRef(reference);
+      const earlyCurated = findCuratedAnalysis(requested);
+      const useBsbOnly = isBsbOnlyPassage(earlyCurated || { reference });
+
       const versionResults = await Promise.allSettled(
-        PD_VERSIONS.map((version) => fetchVersion(reference, version.id))
+        useBsbOnly
+          ? [fetchVersion(reference, "bsb")]
+          : PD_VERSIONS.map((version) => fetchVersion(reference, version.id))
       );
 
       const rows = versionResults
@@ -816,24 +905,15 @@
         .map((result) => result.value);
 
       if (!rows.length) {
-        throw new Error("No public-domain translations returned for that reference.");
+        throw new Error(
+          useBsbOnly
+            ? "Could not load the Berean Standard Bible for that reference."
+            : "No public-domain translations returned for that reference."
+        );
       }
 
-      const requested = normalizeRef(reference);
       const key = normalizeRef(rows[0].formalRef || reference);
-
-      function findCurated(candidate) {
-        if (analyses[candidate]) return analyses[candidate];
-        return Object.entries(analyses).find(([refKey]) => {
-          if (candidate === refKey) return true;
-          return (
-            candidate.startsWith(`${refKey}:`) ||
-            candidate.startsWith(`${refKey} `)
-          );
-        })?.[1];
-      }
-
-      const curated = findCurated(requested) || findCurated(key);
+      const curated = earlyCurated || findCuratedAnalysis(key);
 
       const analysis =
         curated ||
@@ -846,9 +926,14 @@
 
       const visual = document.getElementById("study-visual");
       const studyImage = document.getElementById("study-image");
-      const isJobPassage = /^job\s*[12]\b/i.test(normalizeRef(analysis.reference));
+      const refKey = normalizeRef(analysis.reference);
       if (visual && studyImage) {
-        if (isJobPassage) {
+        if (/^job\s*19\b/i.test(refKey)) {
+          studyImage.src = "job19.jpg";
+          studyImage.alt =
+            "Job afflicted and pleading upward while his friends sit with him in the desert";
+          visual.hidden = false;
+        } else if (/^job\s*[12]\b/i.test(refKey)) {
           studyImage.src = "job.jpg";
           studyImage.alt =
             "Job sitting in ashes among ruins after loss, looking upward in grief";
@@ -868,7 +953,7 @@
       renderTextSection("culture-content", analysis.culture);
       renderSurrounding(surrounding);
       renderTextSection("application-content", analysis.application);
-      renderQuestions(analysis);
+      await renderQuestions(analysis);
 
       studyEl.hidden = false;
       setStatus(
@@ -883,7 +968,7 @@
       studyEl.hidden = true;
       setStatus(
         error.message ||
-          "Could not load that reference. Try a form like Job 1 or Job 2."
+          "Could not load that reference. Try a form like Job 1, Job 2, or Job 19."
       );
     }
   }
