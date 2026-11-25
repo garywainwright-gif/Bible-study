@@ -730,5 +730,362 @@ window.BIBLE_ANALYSES = {
         ]
       }
     ]
+  },
+
+  "job 28": {
+    reference: "Job 28",
+    language: "Hebrew",
+    primaryText:
+      "Behold, the fear of the Lord, that is wisdom; and to depart from evil is understanding.",
+    sense: [
+      "The chapter pauses the dispute with a wisdom poem. Human skill can tunnel into darkness, overturn mountains, and bring hidden ore to light—yet the same industrious mind cannot locate wisdom by digging, trading, or exploring sea and underworld.",
+      "The poem’s plain claim is double: wisdom’s true place belongs to God, who knew its way at creation; and what God has spoken to humankind is not a mining map of providence, but reverence—“the fear of the Lord”—and a life that turns from evil."
+    ],
+    original: {
+      text: "הֵן יִרְאַת אֲדֹנָי הִיא חָכְמָה וְסוּר מֵרָע בִּינָה׃",
+      transliteration:
+        "Hen yir’at Adonai hi chokmah; ve-sur me-ra‘ binah. (Job 28:28)",
+      notes: [
+        "Job 28 is Hebrew wisdom poetry in three movements: human mining skill (28:1–11), wisdom’s inaccessibility and pricelessness (28:12–22), and God’s knowledge of wisdom culminating in 28:28.",
+        "The refrain “Where can wisdom be found…?” (28:12, 20) structures the search. Mining imagery makes the contrast sharp: what human eyes can force from rock, they cannot force from God.",
+        "Verse 28 uses יִרְאַת אֲדֹנָי (fear of the Lord) and סוּר מֵרָע (turn from evil)—language that echoes Job’s own description in 1:1 and 1:8 as one who fears God and turns away from evil."
+      ],
+      chips: ["Biblical Hebrew", "Wisdom poem", "חָכְמָה · wisdom"]
+    },
+    words: [
+      {
+        lemma: "חָכְמָה · chokmah",
+        gloss: "wisdom",
+        note: "Not mere cleverness or technical skill. In this poem, mining shows skill; wisdom is the deeper knowing that belongs to God and is given to humans as reverent life with him."
+      },
+      {
+        lemma: "בִּינָה · binah",
+        gloss: "understanding / discernment",
+        note: "Paired with wisdom in the refrain and in 28:28. Understanding here is practical moral insight—discerning and refusing the evil path."
+      },
+      {
+        lemma: "יִרְאַת אֲדֹנָי · yir’at Adonai",
+        gloss: "the fear of the Lord",
+        note: "Covenant reverence and awe before God—not panic, but worshipful dependence. The poem’s answer relocates wisdom from secret maps of suffering to right relation with the Lord."
+      },
+      {
+        lemma: "סוּר מֵרָע · sur me-ra‘",
+        gloss: "turn away from evil",
+        note: "Wisdom’s ethical face. To know God truly is to refuse evil—matching the prologue’s portrait of Job and Proverbs’ wisdom program."
+      },
+      {
+        lemma: "מָקוֹם · maqom",
+        gloss: "place / dwelling",
+        note: "Repeated in the search for wisdom’s ‘place.’ Humans find places for silver and gold; wisdom’s place is known to God alone (28:23)."
+      }
+    ],
+    versionNotes: {
+      bsb: "In the BSB, follow the mining description into the refrain “But where can wisdom be found…?” and land on 28:28: “the fear of the Lord, that is wisdom, and to turn away from evil is understanding.”"
+    },
+    expressions: [
+      {
+        title: "Mining the darkness",
+        body: "Human beings put an end to darkness, cut shafts, overturn mountains, and bring what is hidden to light. The poem praises skill in order to humble it: technical mastery is not the same as wisdom."
+      },
+      {
+        title: "“Where can wisdom be found?”",
+        body: "The refrain of the chapter. Sea, deep, death, and Abaddon cannot supply it; gold and jewels cannot buy it. The question exposes every false market for understanding God."
+      },
+      {
+        title: "Priceless beyond Ophir",
+        body: "Wisdom cannot be valued with gold of Ophir, onyx, sapphire, coral, or topaz. The catalogue of treasures underlines that the richest economies still cannot purchase what only God gives."
+      },
+      {
+        title: "“The fear of the Lord, that is wisdom”",
+        body: "God’s word to humankind. Wisdom for us is not decoding every mystery of providence, but fearing the Lord and turning from evil—the path Job himself was introduced as walking."
+      }
+    ],
+    historical: [
+      "Job 28 stands in Israel’s wisdom tradition alongside Proverbs and Ecclesiastes: wisdom begins with the fear of the Lord, yet God’s ways in suffering remain larger than human explanation.",
+      "Whether heard as Job’s interlude or as a placed wisdom poem within the book, the chapter interrupts the friends’ confidence that they have mapped God’s justice onto Job’s wounds."
+    ],
+    author: [
+      "The poet uses vivid mining reportage—rare in biblical literature—to set up a theological punchline. Detail serves contrast: if humans can do this much underground, why can they not locate wisdom?",
+      "By ending with God’s speech to ‘man,’ the author relocates the debate from speculative theodicy to revealed piety and ethics."
+    ],
+    audience: [
+      "Readers exhausted by argument about suffering—Job, the friends, and later the church—are called back to what God has actually said humans must know.",
+      "Sufferers and counselors alike are warned: skill at explaining God is not the same as fearing God and departing from evil."
+    ],
+    culture: [
+      "Ancient mining—shafts, ropes, smelting copper and iron, precious stones—supplies the poem’s social world. Treasure-hunting is a known human glory; wisdom-hunting by the same methods fails.",
+      "Abaddon and Death as speakers (28:22) fit wisdom’s cosmic stage: even the realm of ruin has only heard a rumour of wisdom, not housed it."
+    ],
+    surrounding: {
+      overview:
+        "Job 28 sits after the long dispute and before Job’s final oath and the Elihu/YHWH speeches. It functions as a wisdom hinge between human argument and divine appearance.",
+      before: [
+        {
+          ref: "Job 27",
+          note: "Job maintains his integrity and speaks of the wicked’s end. Chapter 28 then asks what true wisdom is amid such contested claims."
+        },
+        {
+          ref: "Job 1:1",
+          note: "The prologue already named Job as one who fears God and turns from evil—the very definition 28:28 will call wisdom and understanding."
+        }
+      ],
+      after: [
+        {
+          ref: "Job 29–31",
+          note: "Job’s final defence recalls former blessing and oath of innocence. The wisdom poem has already hinted that the deepest issue is reverence, not winning the debate."
+        },
+        {
+          ref: "Job 38–42",
+          note: "When the Lord speaks from the whirlwind, creation’s measure (wind, rain, path of the storm) echoes 28:25–27: God knows the way humans cannot map."
+        }
+      ]
+    },
+    application: [
+      "Honour human skill without treating it as the key to God’s counsel. Dig where you must for daily work; do not dig for a mastery of providence that God has not sold.",
+      "Practise the wisdom God has named: fear the Lord, turn from evil. In suffering, that path keeps faith from becoming either cynical explanation or proud self-vindication alone."
+    ],
+    questions: [
+      {
+        prompt:
+          "The first section (28:1-11) leads us to reflect on the experience of the miner. As we consider the subject of wisdom, why do these verses provide a good place to start?",
+        passageExtracts: [{ ref: "Job 28:1-11", label: "The miner" }],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "Starting with the miner works because wisdom is introduced against a backdrop of real human searching: courage, skill, and bringing hidden things to light. Before asking where wisdom is found, the poem shows how far human effort can go—and how natural it is to assume that the same kind of probing will reach understanding. The mining scene is therefore the right doorway into the subject: it honours search while preparing us to see that wisdom is not just another ore.",
+        comments: [
+          {
+            name: "Matthew Henry",
+            body: "Henry notes the chapter’s contrast between what human industry can discover in the earth and what it cannot discover about God’s mind. Beginning with mining is a good place to start because it takes human searching seriously before limiting it."
+          },
+          {
+            name: "H. L. Ellison",
+            body: "Ellison highlights the author’s fascination with the miner underground while life goes on above. Reflecting on that experience is a fitting start for wisdom: we already know what determined searching looks like in ordinary work."
+          },
+          {
+            name: "The miner’s virtues",
+            body: "The miner ends darkness, cuts shafts far from habitation, overturns mountains, and spots treasure. Those habits—persistence, depth, risk—are the very habits people bring to the quest for wisdom, so the poem starts where our instincts already are."
+          },
+          {
+            name: "Why start here",
+            body: "If the chapter began only with abstract claims about God, we might miss the point. By starting underground, Job 28 teaches that wisdom talk must reckon with human skill and still ask whether skill is enough."
+          }
+        ]
+      },
+      {
+        prompt:
+          "Proverbs 3:19 says “the Lord by wisdom founded the earth.” Where do you see the underlying wisdom in creation that is suggested by this mining analogy?",
+        passageExtracts: [
+          { ref: "Job 28:1-11", label: "Mining analogy" },
+          { ref: "Proverbs 3:19-20", label: "Proverbs" },
+          { ref: "Job 28:23-27", label: "God and creation" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "The mining analogy points to an ordered world: metals in their places, ore that can be refined, channels that can be cut, treasures hidden yet discoverable because creation is structured. That structure hints at the wisdom by which the Lord founded the earth (Proverbs 3:19). Job 28 later makes the link explicit—God weighed wind, measured waters, and set paths for rain and lightning—so the miner’s finds depend on a wiser Craftsman behind the seams of the earth.",
+        comments: [
+          {
+            name: "Proverbs 3:19-20",
+            body: "“The Lord by wisdom founded the earth; by understanding he established the heavens.” Creation is not random rubble; it is founded. The miner succeeds only because the earth already holds ordered deposits and laws that repay careful work."
+          },
+          {
+            name: "In the mining scene",
+            body: "Silver has a mine, gold a place of refining, iron and copper come from earth and ore, sapphires and gold flecks sit in rock. The analogy suggests underlying wisdom: hidden riches are placed, not invented by the digger."
+          },
+          {
+            name: "Job 28:23-27",
+            body: "The poem later names what the analogy implies: God understands wisdom’s way, looks to the ends of the earth, fixes the weight of the wind, measures the waters, and sets a path for the thunderbolt. The miner’s world is the Creator’s wise work."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry stresses that only the One who sees the whole can judge every part. The mining analogy invites us to notice wisdom under our feet—order that makes discovery possible—before confessing that such wisdom belongs first to the Lord who founded the earth."
+          }
+        ]
+      },
+      {
+        prompt:
+          "In v 12-19 how are we shown that the search for wisdom is both essential and desperate? How have we seen the truth of v 22 through the book of Job?",
+        passageExtracts: [
+          { ref: "Job 28:12-19", label: "The search" },
+          { ref: "Job 28:22", label: "Abaddon and Death" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "Verses 12–19 show wisdom as something we must seek—its value is beyond gold and jewels—yet also as something we cannot reach by digging or buying, so the search is essential and desperate at once. Verse 22’s claim that Abaddon and Death have only heard a rumour of wisdom is lived out across Job: the book walks through ruin, bereavement, and the edge of the grave, yet neither suffering nor the underworld yields the final key to God’s ways.",
+        comments: [
+          {
+            name: "Essential (28:12-19)",
+            body: "The refrain asks where wisdom can be found, and the treasure catalogue says it cannot be matched by gold, Ophir, onyx, sapphire, coral, or topaz. If wisdom outvalues every prize humans chase, the search is not optional—it is essential."
+          },
+          {
+            name: "Desperate (28:12-19)",
+            body: "At the same time, wisdom is not found in the land of the living, nor in the deep or the sea, nor weighed out for silver. The poem closes every ordinary route. Essential hunger meets blocked paths: that is desperation."
+          },
+          {
+            name: "Verse 22 and the book of Job",
+            body: "“Abaddon and Death say, ‘We have heard a rumor about it.’” Through Job we watch Death take children, livelihood, and health, and we hear speeches from the ash-heap’s edge—yet calamity never hands over full wisdom. The friends treat ruin as a map; the book shows ruin knows only a rumour."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry distinguishes wisdom hid in God from wisdom revealed to us. Job’s story confirms that Death’s domain cannot satisfy the desperate search: we need what God speaks, not what the grave whispers."
+          }
+        ]
+      },
+      {
+        prompt:
+          "Why, according to v 24-27, does the poet say God understands the way to wisdom (v23)?",
+        passageExtracts: [
+          { ref: "Job 28:23", label: "God knows" },
+          { ref: "Job 28:24-27", label: "Why he knows" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "Verse 23 says God understands wisdom’s way and knows its place; verses 24–27 give the reason: he sees the whole earth under heaven, and in creating he weighed the wind, measured the waters, set a limit for the rain and a path for the lightning—then he saw, appraised, and established wisdom. The poet’s point is that the Creator who ordered the world is the One who truly knows wisdom’s path.",
+        comments: [
+          {
+            name: "Job 28:23-24",
+            body: "God understands wisdom’s way and knows its place “for he looks to the ends of the earth and sees everything under the heavens.” Comprehensive sight belongs to God alone; that is why he, not the miner or the friend, understands the way."
+          },
+          {
+            name: "Job 28:25-27",
+            body: "When God fixed the weight of the wind, measured out the waters, set a limit for the rain and a path for the thunderbolt, then he looked at wisdom and appraised it, established it and searched it out. Wisdom is bound up with his creative ordering—so of course he knows the way to it."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry stresses that only the One to whom all is open, who sees the whole at one view, can rightly judge every part. Verses 24–27 ground verse 23 in that Creator’s-eye view."
+          },
+          {
+            name: "The poet’s logic",
+            body: "Humans find seams of ore; God founded the earth’s order. The poet says God understands the way to wisdom because wisdom was present to him in creation itself—not discovered later by human probing."
+          }
+        ]
+      },
+      {
+        prompt:
+          "What significance might there be in the fact v 28 is the first time we have heard God speak since chapter 2?",
+        passageExtracts: [
+          { ref: "Job 2:3-6", label: "God in chapter 2" },
+          { ref: "Job 28:28", label: "God speaks again" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "From chapter 3 onward the book has been filled with human speech—Job, friends, accusation, and defence—while God has been silent on stage since the heavenly scenes of chapters 1–2. That verse 28 is the first reported word from God since then is striking: after all the debate, what breaks the silence is not a full theodicy but a summons to fear the Lord and turn from evil. The significance is that true wisdom comes from God’s mouth, not from winning the argument in his absence.",
+        comments: [
+          {
+            name: "The long silence",
+            body: "After the prologue, readers hear Job curse his day, friends prosecute, and Job protest—chapter after chapter without a fresh word from God to humankind. Verse 28 interrupts that human monopoly on speech."
+          },
+          {
+            name: "What God says when he speaks",
+            body: "He does not first explain Job’s losses or settle the friends’ theory. He defines wisdom for ‘man’: fear the Lord; turn from evil. The return of God’s voice recentres the book on revealed piety rather than speculative mastery."
+          },
+          {
+            name: "H. L. Ellison",
+            body: "Ellison notes that in the dispute, self-vindication and orthodoxy had crowded out listening to God. That 28:28 is God’s first speech since chapter 2 underlines how far the conversation had drifted from hearing him."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry emphasises revealed wisdom within our reach. Placed after so much human talk, God’s word in 28:28 suggests that what we most needed was not more analysis from the ash-heap, but a word from the Lord."
+          }
+        ]
+      },
+      {
+        prompt:
+          "Why do you think that wisdom can only be found in the way that v 28 describes?",
+        passageExtracts: [
+          { ref: "Job 28:12-13", label: "Not found by us" },
+          { ref: "Job 28:23", label: "Known by God" },
+          { ref: "Job 28:28", label: "Given to us" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "The chapter has already shown that wisdom cannot be mined, mapped, or bought, and that only God knows its way. Therefore it can only be found as God gives it—through the fear of the Lord and turning from evil. Any other route treats wisdom as a human achievement; verse 28 treats it as revealed life with God.",
+        comments: [
+          {
+            name: "Because every other path failed",
+            body: "Shafts, seas, markets of gold, and even Death cannot supply wisdom. If those routes are closed, wisdom cannot be ‘found’ by us as ore is found; it must be received in the way God names."
+          },
+          {
+            name: "Because God alone knows its place",
+            body: "Verse 23 says God understands wisdom’s way. Creatures do not stand above wisdom to seize it; they stand under the Creator who speaks. So the only open door is the one he opens in 28:28."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry distinguishes secret wisdom hid in God from revealed wisdom within our reach. What we can have is not omniscience of providence, but fear of the Lord and departing from evil—wisdom that does us good."
+          },
+          {
+            name: "Relational, not technical",
+            body: "Mining skill is technical; verse 28 is relational and moral. Wisdom belongs to knowing God and refusing evil, because true understanding is not information about the universe so much as right standing and walk before the Lord of the universe."
+          }
+        ]
+      },
+      {
+        prompt:
+          "How does this question of wisdom and its answer in v 28 help to explain the conversations and tension between Job and his friends?",
+        passageExtracts: [
+          { ref: "Job 28:12", label: "Where is wisdom?" },
+          { ref: "Job 28:28", label: "The answer" },
+          { ref: "Job 1:1", label: "Job’s life" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "The debate has been a clash over who has wisdom about Job’s suffering. The friends treat their explanations as understanding; Job defends his integrity. Verse 28 reframes the fight: true wisdom is fearing the Lord and turning from evil—which Job already embodied—not winning a theory about providence. That helps explain the tension: they argued as if wisdom were a map of God’s reasons, while the poem says wisdom is reverent life with God.",
+        comments: [
+          {
+            name: "Two kinds of ‘wisdom’ in the dispute",
+            body: "The friends speak as sages who can read calamity as guilt. Job speaks as a sufferer who will not confess a false charge. Chapter 28 exposes both sides’ risk: treating the argument itself as the place where wisdom is found."
+          },
+          {
+            name: "Verse 28 and Job’s integrity",
+            body: "If wisdom is the fear of the Lord and departing from evil, then Job’s prologue character already marks him as wise. The friends’ pressure to make him admit hidden wickedness collides with that definition—and so the conversation stays tense."
+          },
+          {
+            name: "H. L. Ellison",
+            body: "Ellison notes that self-vindication and defence of orthodoxy had crowded out the fear of the Lord. Verse 28 explains the friction: both camps could fight hard and still miss the wisdom God names."
+          },
+          {
+            name: "Why the tension persists",
+            body: "As long as wisdom is equated with explaining Job’s wounds, friends must accuse and Job must resist. Verse 28 relocates wisdom from the courtroom of providence to reverence and holiness—showing why their speeches could not bring peace."
+          }
+        ]
+      },
+      {
+        prompt:
+          "How does this help us to understand what Colossians 2:2-3 means, when it says that it is Christ “in whom are hidden all the treasures of wisdom and knowledge”?",
+        passageExtracts: [
+          { ref: "Job 28:12-15", label: "Hidden wisdom" },
+          { ref: "Job 28:23-28", label: "God’s answer" },
+          { ref: "Colossians 2:2-3", label: "Christ" }
+        ],
+        revealLabel: "Reveal theologian comments",
+        requireAnswer: true,
+        commentsSummary:
+          "Job 28 says wisdom is hidden from living eyes, beyond purchase, and known to God, who then gives humans the fear of the Lord. Colossians 2:2–3 names where that hidden treasure is held for the church: in Christ. He is not one more mining shaft; he is the Person in whom God’s wisdom is stored and made known—so the search of Job 28 finds its fulfilment in knowing him.",
+        comments: [
+          {
+            name: "Hidden, not absent",
+            body: "Job 28 insists wisdom is concealed from ordinary discovery yet real with God. Paul uses the same ‘hidden treasures’ language: wisdom is not nowhere; it is located—in Christ."
+          },
+          {
+            name: "Matthew Henry",
+            body: "Henry already pointed Job 28 toward Christ: treasures of wisdom hid in him, revealed by the word, received by faith. Colossians makes that reading explicit for Christians."
+          },
+          {
+            name: "From maxim to Messiah",
+            body: "Verse 28 gives the human path—fear the Lord, turn from evil. Colossians shows the centre of that path in the gospel: the Lord we fear has come near in Jesus, and all wisdom’s riches are in him, not in rival philosophies or explanations."
+          },
+          {
+            name: "Against false treasures",
+            body: "Job’s gold and jewels could not buy wisdom; Paul’s readers were tempted by persuasive talk that bypassed Christ. Colossians 2:2–3, read with Job 28, warns us not to dig elsewhere for what God has already placed in his Son."
+          }
+        ]
+      }
+    ]
   }
 };
